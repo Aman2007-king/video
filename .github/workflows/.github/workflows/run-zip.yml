@@ -1,0 +1,6 @@
+steps:
+  - uses: actions/checkout@v4
+  - name: Unzip file
+    run: unzip my_code.zip
+  - name: Run script
+    run: python my_script.py
